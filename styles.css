@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sqContainer {
+    display: flex;
+    align-content: center;
+  
+    width: 960px;
+    min-height: 960px;
+}
+
+#colCont {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-content: stretch;
+  
+}
+
+.square {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(190, 190, 190);
+}
+
