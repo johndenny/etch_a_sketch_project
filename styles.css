@@ -7,6 +7,10 @@ button, input {
     margin: 12px 0;
 }
 
+.penButton:focus, .rainbowPen:focus, .eraserButton:focus {
+    background: #cccccc;
+}
+
 .gameContainer {
     display: flex;
     justify-content: center;
@@ -53,7 +57,7 @@ button, input {
 }
 
 #dimensions {
-    margin-top: -6px;
+    margin-bottom: 12px;
     font-size: 14px;
 }
 
